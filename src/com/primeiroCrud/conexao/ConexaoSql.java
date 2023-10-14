@@ -10,9 +10,9 @@ public class ConexaoSql {
 
 		try {
 
-			String jdbcUrl = "jdbc:mysql://localhost:3306/TAB_COLABORADOR";
-			String user = "root";
-			String password = "1milgrau";
+			String jdbcUrl = "jdbc:mysql://localhost:3306/seuBancoDeDados";
+			String user = "seuUser";
+			String password = "seuPassword";
 
 			connection = DriverManager.getConnection(jdbcUrl, user, password);
 
