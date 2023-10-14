@@ -11,8 +11,8 @@ public class ConexaoSql {
 		try {
 
 			String jdbcUrl = "jdbc:mysql://localhost:3306/TAB_COLABORADOR";
-			String user = "user";
-			String password = "password";
+			String user = "root";
+			String password = "1milgrau";
 
 			connection = DriverManager.getConnection(jdbcUrl, user, password);
 
